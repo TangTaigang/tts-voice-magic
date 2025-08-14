@@ -12,7 +12,7 @@ const HTML_PAGE = `
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>一只会飞的旺旺 - 让文字开口说话的神器</title>
+    <title>语音合成工具</title>
     <meta name="description" content="声音魔法师，一键将文字转换为自然流畅的语音，支持20+种中文声音，免费在线使用，让你的内容更生动有趣！">
     <meta name="keywords" content="文字转语音,AI语音合成,在线TTS,语音生成器,免费语音工具">
     <style>
@@ -392,8 +392,7 @@ const HTML_PAGE = `
 <body>
     <div class="container">
         <div class="header">
-            <h1>声音魔法师</h1>
-            <p class="subtitle">让文字开口说话的神器</p>
+            <h1>语音合成工具</h1>
             <div class="features">
                 <div class="feature-item">
                     <span class="feature-icon">✨</span>
@@ -931,4 +930,5 @@ function dateFormat() {
     const formattedDate = (new Date()).toUTCString().replace(/GMT/, "").trim() + " GMT";
     return formattedDate.toLowerCase();
 }
+
 
